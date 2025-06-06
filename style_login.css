@@ -1,0 +1,159 @@
+body {
+    background-color: black;
+    background-image: url("Imagens/EQUIPE.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0);
+    
+    padding: 40px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h1 {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.login-container h4 {
+    color: #cccccc;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #252525;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.login-container button:hover {
+    background-color: #444;
+}
+
+.login-container a {
+    color: #ccc;
+    text-decoration: underline;
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo img {
+    width: 70px;
+    margin-bottom: 8px;
+}
+
+.logo h2 {
+    color: white;
+    font-family: Impact, sans-serif;
+    margin: 0;
+    font-size: 24px;
+}
+
+.logo span {
+    color: #ccc;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url("Imagens/telafundo.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        align-items: flex-start;
+        padding-top: 120px;
+    }
+
+    .login-container {
+        width: 85%;
+        padding: 25px;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.85);
+    }
+
+    .login-container h1 {
+        font-size: 26px;
+        margin-bottom: 8px;
+    }
+
+    .login-container h4 {
+        font-size: 12px;
+        margin-bottom: 18px;
+    }
+
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+        font-size: 14px;
+        padding: 14px;
+    }
+
+    .login-container button {
+        padding: 14px;
+        font-size: 14px;
+    }
+
+    .login-container a {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+    .logo {
+        top: 20px;
+        left: 20px;
+    }
+
+    .logo img {
+        width: 60px;
+    }
+
+    .logo h2 {
+        font-size: 20px;
+    }
+
+    .logo span {
+        font-size: 11px;
+    }
+}
